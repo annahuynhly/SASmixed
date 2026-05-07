@@ -1,0 +1,30 @@
+Package: SASmixed
+Title: Data sets from "SAS System for Mixed Models"
+Version: 1.0-4
+Authors@R: 
+    c(person("Ramon", "Littell", role = "aut"),
+      person("George", "Milliken", role = "aut"),
+      person("Walter", "Stroup", role = "aut"),
+      person("Russell", "Wolfinger", role = "aut"),
+      person("Douglas", "Bates", role = "aut",
+             comment = c(ORCID = "0000-0001-8316-9503")),
+      person("Martin", "Maechler", role = "aut",
+             comment = c(ORCID = "0000-0002-8685-9910")),
+      person("Ben", "Bolker", role = "aut",
+             email = "bbolker+lme4@gmail.com",
+             comment = c(ORCID = "0000-0002-2127-0443")),
+      person("Steve", "Walker", role = "aut",
+             email = "stevencarlislewalker@gmail.com",
+             comment = c(ORCID = "0000-0002-4394-9078")),
+      person("Anna", "Ly", role = "cre",
+             email = "annahuynh.ly@utoronto.ca",
+             comment = c(ORCID = "0000-0002-0210-0342")))
+Description: Data sets and sample lmer analyses corresponding
+  to the examples in Littell, Milliken, Stroup and Wolfinger
+  (1996), "SAS System for Mixed Models", SAS Institute.
+Depends: R (>= 2.14.0),
+Suggests: lme4, lattice
+LazyData: yes
+License: GPL (>= 2)
+NeedsCompilation: no
+Repository: CRAN

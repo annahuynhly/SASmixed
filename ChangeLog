@@ -1,0 +1,113 @@
+2011-10-17  Douglas Bates <bates@stat.wisc.edu>
+
+	* DESCRIPTION, NAMESPACE, inst/doc/Usinglmer.Rnw: Add a NAMESPACE for
+	  R-2.14.0 and later; new release; clean up dependencies of vignette
+
+2011-04-19  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* inst/doc/Usinglmer.Rnw: Sweave strip.white="true" -- R 2.14 compatibly
+
+2011-02-15  Douglas Bates <bates@stat.wisc.edu>
+
+	* DESCRIPTION, data/Animal.rda, data/AvgDailyGain.rda, data/BIB.rda,
+	  data/Bond.rda, data/Cultivation.rda, data/Demand.rda,
+	  data/Genetics.rda, data/HR.rda, data/IncBlk.rda, data/Mississippi.rda,
+	  data/Multilocation.rda, data/PBIB.rda, data/SIMS.rda, data/Semi2.rda,
+	  data/Semiconductor.rda, data/TeachingI.rda, data/TeachingII.rda,
+	  data/WWheat.rda, data/WaferTypes.rda, data/Weights.rda,
+	  inst/doc/Usinglmer.pdf: Resave data sets for greater compression.
+	  Rebuild vignette. New version and date.
+	* INDEX: Redundant.
+
+2011-01-27  Douglas Bates <bates@stat.wisc.edu>
+
+	* man/Multilocation.Rd: Suppress printing of correlation matrices.
+
+2010-02-27  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* inst/doc/Usinglmer.Rnw: keep.source !
+
+2009-10-26  Douglas Bates <bates@stat.wisc.edu>
+
+	* DESCRIPTION, inst/doc/Usinglmer.pdf: New release
+
+2009-10-21  Douglas Bates <bates@stat.wisc.edu>
+
+	* inst/doc/Usinglmer.Rnw: Remove control arguments that are no longer
+	  used in lmer.
+2009-08-08  Douglas Bates <bates@stat.wisc.edu>
+
+	* [r401] DESCRIPTION, inst/doc/Usinglmer.Rnw, inst/doc/Usinglmer.pdf:
+	  New release on R-forge
+	* [r400] inst/doc/Usinglme.Rnw, inst/doc/Usinglme.bib,
+	  inst/doc/Usinglmer.Rnw, inst/doc/Usinglmer.bib: Update to AFS version
+
+2009-08-08  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION, man/Animal.Rd, man/AvgDailyGain.Rd, man/BIB.Rd,
+	  man/Bond.Rd, man/Cultivation.Rd, man/Demand.Rd, man/Genetics.Rd,
+	  man/HR.Rd, man/IncBlk.Rd, man/Mississippi.Rd, man/Multilocation.Rd,
+	  man/PBIB.Rd, man/SIMS.Rd, man/Semi2.Rd, man/Semiconductor.Rd,
+	  man/TeachingI.Rd, man/TeachingII.Rd, man/WWheat.Rd, man/WaferTypes.Rd,
+	  man/Weights.Rd: update to CRAN`s version 0.4-4 (from 2008-06 !)
+
+2009-07-28  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* .: move mlmRev, MEMSS (and SASmixed) from
+	  "svn.r-project.org/R-packages/trunk/"
+
+2006-10-23  Douglas Bates <bates@stat.wisc.edu>
+
+	* [r384] Remove poorly defined example
+
+2006-09-09  Douglas Bates  <bates@R-project.org>
+
+	* man/BIB.Rd: Update this and all other examples for lmer back in
+	the lme4 package
+
+2006-01-04  Douglas Bates  <bates@stat.wisc.edu>
+
+	* man/BIB.Rd: Remove calls to gplot in this and other examples.
+
+2005-04-01  Douglas Bates  <bates@bates1-home>
+
+	* DESCRIPTION: Upgrade dependency to lme4_0.95-1 or later.  Change
+	all calls to lme to calls to lmer.
+
+2004-11-04  Douglas Bates  <bates@bates1-home>
+
+	* DESCRIPTION (Depends): Change dependency to lme4
+
+	* data/: All data sets converted to new groupedData format and
+	stored as compressed .rda objects.
+
+	* man/: Examples in manual pages converted to use the lme4 package
+	and gplot.
+
+2004-10-03  Douglas Bates  <bates@bates1-home>
+
+	* DESCRIPTION (Depends): Add Depends and LazyData
+
+	* R/zzz.R (.onLoad): Move the require(nlme) to an .onLoad function
+
+2003-06-04  Douglas Bates  <bates@stat.wisc.edu>
+
+	* man/HR.Rd: Change starting estimate in ill-considered fit with a
+	variance function.
+
+2003-04-29  Douglas Bates  <bates@stat.wisc.edu>
+
+	* man/Multilocation.Rd: Comment out the fm1MultR example.  In some
+	cases it converges but always to a 'boundary' answer.
+
+2001-12-30  Douglas Bates  <bates@stat.wisc.edu>
+
+	* man/Multilocation.Rd: Commented out the call to intervals in the
+	examples section because it caused an error on some systems.
+
+2001-12-10  Douglas Bates  <bates@stat.wisc.edu>
+
+	* man/Animal.Rd: Removed the library(SASmixed) from the example in
+	this help page and in all the others.
+	
+
