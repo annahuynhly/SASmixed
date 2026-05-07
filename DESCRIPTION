@@ -1,6 +1,6 @@
 Package: SASmixed
 Title: Data sets from "SAS System for Mixed Models"
-Version: 1.0-4
+Version: 1.0-5
 Authors@R: 
     c(person("Ramon", "Littell", role = "aut"),
       person("George", "Milliken", role = "aut"),
@@ -27,4 +27,6 @@ Suggests: lme4, lattice
 LazyData: yes
 License: GPL (>= 2)
 NeedsCompilation: no
+URL: https://github.com/annahuynhly/SASmixed
 Repository: CRAN
+Encoding: UTF-8
