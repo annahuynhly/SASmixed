@@ -1,9 +1,9 @@
 
 # SASmixed
 
-[![CRAN version](http://www.r-pkg.org/badges/version/SASmixed)](https://cran.r-project.org/package=SASmixed)
-[![downloads](http://cranlogs.r-pkg.org/badges/SASmixed)](http://cranlogs.r-pkg.org/badges/SASmixed)
-[![total downloads](http://cranlogs.r-pkg.org/badges/grand-total/SASmixed)](http://cranlogs.r-pkg.org/badges/grand-total/SASmixed)
+[![CRAN version](https://www.r-pkg.org/badges/version/SASmixed)](https://cran.r-project.org/package=SASmixed)
+[![downloads](https://cranlogs.r-pkg.org/badges/SASmixed)](http://cranlogs.r-pkg.org/badges/SASmixed)
+[![total downloads](https://cranlogs.r-pkg.org/badges/grand-total/SASmixed)](http://cranlogs.r-pkg.org/badges/grand-total/SASmixed)
 
 Data sets and sample `lmer` analyses corresponding to the examples in Littell, Milliken, Stroup and Wolfinger (1996), "SAS System for Mixed Models", SAS Institute. 
 
